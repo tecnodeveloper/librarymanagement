@@ -52,7 +52,6 @@ class ComposerStaticInit6882573975851223746555246bb55f3e
         ),
         'W' =>
         array (
-            'WorkOS\\' => 7,
             'Whoops\\' => 7,
         ),
         'T' =>
@@ -131,7 +130,6 @@ class ComposerStaticInit6882573975851223746555246bb55f3e
             'League\\Flysystem\\' => 17,
             'League\\Config\\' => 14,
             'League\\CommonMark\\' => 18,
-            'Laravel\\WorkOS\\' => 15,
             'Laravel\\Wayfinder\\' => 18,
             'Laravel\\Tinker\\' => 15,
             'Laravel\\SerializableClosure\\' => 28,
@@ -160,7 +158,6 @@ class ComposerStaticInit6882573975851223746555246bb55f3e
         'F' =>
         array (
             'Fruitcake\\Cors\\' => 15,
-            'Firebase\\JWT\\' => 13,
             'Faker\\' => 6,
         ),
         'E' =>
@@ -197,10 +194,6 @@ class ComposerStaticInit6882573975851223746555246bb55f3e
         'voku\\' =>
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
-        ),
-        'WorkOS\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/workos/workos-php/lib',
         ),
         'Whoops\\' =>
         array (
@@ -433,10 +426,6 @@ class ComposerStaticInit6882573975851223746555246bb55f3e
         array (
             0 => __DIR__ . '/..' . '/league/commonmark/src',
         ),
-        'Laravel\\WorkOS\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/laravel/workos/src',
-        ),
         'Laravel\\Wayfinder\\' =>
         array (
             0 => __DIR__ . '/..' . '/laravel/wayfinder/src',
@@ -515,10 +504,6 @@ class ComposerStaticInit6882573975851223746555246bb55f3e
         'Fruitcake\\Cors\\' =>
         array (
             0 => __DIR__ . '/..' . '/fruitcake/php-cors/src',
-        ),
-        'Firebase\\JWT\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
         'Faker\\' =>
         array (
@@ -1435,14 +1420,6 @@ class ComposerStaticInit6882573975851223746555246bb55f3e
         'Faker\\Provider\\zh_TW\\Text' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/zh_TW/Text.php',
         'Faker\\UniqueGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/UniqueGenerator.php',
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/ValidGenerator.php',
-        'Firebase\\JWT\\BeforeValidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/BeforeValidException.php',
-        'Firebase\\JWT\\CachedKeySet' => __DIR__ . '/..' . '/firebase/php-jwt/src/CachedKeySet.php',
-        'Firebase\\JWT\\ExpiredException' => __DIR__ . '/..' . '/firebase/php-jwt/src/ExpiredException.php',
-        'Firebase\\JWT\\JWK' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWK.php',
-        'Firebase\\JWT\\JWT' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWT.php',
-        'Firebase\\JWT\\JWTExceptionWithPayloadInterface' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWTExceptionWithPayloadInterface.php',
-        'Firebase\\JWT\\Key' => __DIR__ . '/..' . '/firebase/php-jwt/src/Key.php',
-        'Firebase\\JWT\\SignatureInvalidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/SignatureInvalidException.php',
         'Fruitcake\\Cors\\CorsService' => __DIR__ . '/..' . '/fruitcake/php-cors/src/CorsService.php',
         'Fruitcake\\Cors\\Exceptions\\InvalidOptionException' => __DIR__ . '/..' . '/fruitcake/php-cors/src/Exceptions/InvalidOptionException.php',
         'GrahamCampbell\\ResultType\\Error' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Error.php',
@@ -3353,13 +3330,6 @@ class ComposerStaticInit6882573975851223746555246bb55f3e
         'Laravel\\Wayfinder\\TypeScript' => __DIR__ . '/..' . '/laravel/wayfinder/src/TypeScript.php',
         'Laravel\\Wayfinder\\Verb' => __DIR__ . '/..' . '/laravel/wayfinder/src/Verb.php',
         'Laravel\\Wayfinder\\WayfinderServiceProvider' => __DIR__ . '/..' . '/laravel/wayfinder/src/WayfinderServiceProvider.php',
-        'Laravel\\WorkOS\\Http\\Middleware\\ValidateSessionWithWorkOS' => __DIR__ . '/..' . '/laravel/workos/src/Http/Middleware/ValidateSessionWithWorkOS.php',
-        'Laravel\\WorkOS\\Http\\Requests\\AuthKitAccountDeletionRequest' => __DIR__ . '/..' . '/laravel/workos/src/Http/Requests/AuthKitAccountDeletionRequest.php',
-        'Laravel\\WorkOS\\Http\\Requests\\AuthKitAuthenticationRequest' => __DIR__ . '/..' . '/laravel/workos/src/Http/Requests/AuthKitAuthenticationRequest.php',
-        'Laravel\\WorkOS\\Http\\Requests\\AuthKitLoginRequest' => __DIR__ . '/..' . '/laravel/workos/src/Http/Requests/AuthKitLoginRequest.php',
-        'Laravel\\WorkOS\\Http\\Requests\\AuthKitLogoutRequest' => __DIR__ . '/..' . '/laravel/workos/src/Http/Requests/AuthKitLogoutRequest.php',
-        'Laravel\\WorkOS\\User' => __DIR__ . '/..' . '/laravel/workos/src/User.php',
-        'Laravel\\WorkOS\\WorkOS' => __DIR__ . '/..' . '/laravel/workos/src/WorkOS.php',
         'League\\CommonMark\\CommonMarkConverter' => __DIR__ . '/..' . '/league/commonmark/src/CommonMarkConverter.php',
         'League\\CommonMark\\ConverterInterface' => __DIR__ . '/..' . '/league/commonmark/src/ConverterInterface.php',
         'League\\CommonMark\\Delimiter\\Bracket' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/Bracket.php',
@@ -7181,75 +7151,6 @@ class ComposerStaticInit6882573975851223746555246bb55f3e
         'Whoops\\Util\\Misc' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/Misc.php',
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
-        'WorkOS\\AuditLogs' => __DIR__ . '/..' . '/workos/workos-php/lib/AuditLogs.php',
-        'WorkOS\\Client' => __DIR__ . '/..' . '/workos/workos-php/lib/Client.php',
-        'WorkOS\\DirectorySync' => __DIR__ . '/..' . '/workos/workos-php/lib/DirectorySync.php',
-        'WorkOS\\Exception\\AuthenticationException' => __DIR__ . '/..' . '/workos/workos-php/lib/Exception/AuthenticationException.php',
-        'WorkOS\\Exception\\AuthorizationException' => __DIR__ . '/..' . '/workos/workos-php/lib/Exception/AuthorizationException.php',
-        'WorkOS\\Exception\\BadRequestException' => __DIR__ . '/..' . '/workos/workos-php/lib/Exception/BadRequestException.php',
-        'WorkOS\\Exception\\BaseRequestException' => __DIR__ . '/..' . '/workos/workos-php/lib/Exception/BaseRequestException.php',
-        'WorkOS\\Exception\\ConfigurationException' => __DIR__ . '/..' . '/workos/workos-php/lib/Exception/ConfigurationException.php',
-        'WorkOS\\Exception\\GenericException' => __DIR__ . '/..' . '/workos/workos-php/lib/Exception/GenericException.php',
-        'WorkOS\\Exception\\NotFoundException' => __DIR__ . '/..' . '/workos/workos-php/lib/Exception/NotFoundException.php',
-        'WorkOS\\Exception\\ServerException' => __DIR__ . '/..' . '/workos/workos-php/lib/Exception/ServerException.php',
-        'WorkOS\\Exception\\UnexpectedValueException' => __DIR__ . '/..' . '/workos/workos-php/lib/Exception/UnexpectedValueException.php',
-        'WorkOS\\Exception\\WorkOSException' => __DIR__ . '/..' . '/workos/workos-php/lib/Exception/WorkOSException.php',
-        'WorkOS\\MFA' => __DIR__ . '/..' . '/workos/workos-php/lib/MFA.php',
-        'WorkOS\\Organizations' => __DIR__ . '/..' . '/workos/workos-php/lib/Organizations.php',
-        'WorkOS\\Passwordless' => __DIR__ . '/..' . '/workos/workos-php/lib/Passwordless.php',
-        'WorkOS\\Portal' => __DIR__ . '/..' . '/workos/workos-php/lib/Portal.php',
-        'WorkOS\\RequestClient\\CurlRequestClient' => __DIR__ . '/..' . '/workos/workos-php/lib/RequestClient/CurlRequestClient.php',
-        'WorkOS\\RequestClient\\RequestClientInterface' => __DIR__ . '/..' . '/workos/workos-php/lib/RequestClient/RequestClientInterface.php',
-        'WorkOS\\Resource\\AuditLogCreateEventStatus' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/AuditLogCreateEventStatus.php',
-        'WorkOS\\Resource\\AuditLogExport' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/AuditLogExport.php',
-        'WorkOS\\Resource\\AuthenticationChallengeSms' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/AuthenticationChallengeSms.php',
-        'WorkOS\\Resource\\AuthenticationChallengeTotp' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/AuthenticationChallengeTotp.php',
-        'WorkOS\\Resource\\AuthenticationFactorAndChallengeTotp' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/AuthenticationFactorAndChallengeTotp.php',
-        'WorkOS\\Resource\\AuthenticationFactorSms' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/AuthenticationFactorSms.php',
-        'WorkOS\\Resource\\AuthenticationFactorTotp' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/AuthenticationFactorTotp.php',
-        'WorkOS\\Resource\\AuthenticationResponse' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/AuthenticationResponse.php',
-        'WorkOS\\Resource\\BaseWorkOSResource' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/BaseWorkOSResource.php',
-        'WorkOS\\Resource\\Connection' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Connection.php',
-        'WorkOS\\Resource\\ConnectionType' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/ConnectionType.php',
-        'WorkOS\\Resource\\Directory' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Directory.php',
-        'WorkOS\\Resource\\DirectoryGroup' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/DirectoryGroup.php',
-        'WorkOS\\Resource\\DirectoryUser' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/DirectoryUser.php',
-        'WorkOS\\Resource\\Domain' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Domain.php',
-        'WorkOS\\Resource\\EmailVerification' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/EmailVerification.php',
-        'WorkOS\\Resource\\FeatureFlag' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/FeatureFlag.php',
-        'WorkOS\\Resource\\Impersonator' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Impersonator.php',
-        'WorkOS\\Resource\\Invitation' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Invitation.php',
-        'WorkOS\\Resource\\MagicAuth' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/MagicAuth.php',
-        'WorkOS\\Resource\\OAuthTokens' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/OAuthTokens.php',
-        'WorkOS\\Resource\\Order' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Order.php',
-        'WorkOS\\Resource\\Organization' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Organization.php',
-        'WorkOS\\Resource\\OrganizationMembership' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/OrganizationMembership.php',
-        'WorkOS\\Resource\\PasswordReset' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/PasswordReset.php',
-        'WorkOS\\Resource\\PasswordlessSession' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/PasswordlessSession.php',
-        'WorkOS\\Resource\\PortalLink' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/PortalLink.php',
-        'WorkOS\\Resource\\Profile' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Profile.php',
-        'WorkOS\\Resource\\ProfileAndToken' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/ProfileAndToken.php',
-        'WorkOS\\Resource\\Response' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Response.php',
-        'WorkOS\\Resource\\Role' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Role.php',
-        'WorkOS\\Resource\\RoleResponse' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/RoleResponse.php',
-        'WorkOS\\Resource\\User' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/User.php',
-        'WorkOS\\Resource\\UserAndToken' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/UserAndToken.php',
-        'WorkOS\\Resource\\UserAuthenticationFactorTotp' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/UserAuthenticationFactorTotp.php',
-        'WorkOS\\Resource\\UserResponse' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/UserResponse.php',
-        'WorkOS\\Resource\\VaultObject' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/VaultObject.php',
-        'WorkOS\\Resource\\VerificationChallenge' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/VerificationChallenge.php',
-        'WorkOS\\Resource\\Webhook' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/Webhook.php',
-        'WorkOS\\Resource\\WebhookResponse' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/WebhookResponse.php',
-        'WorkOS\\Resource\\WidgetScope' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/WidgetScope.php',
-        'WorkOS\\Resource\\WidgetTokenResponse' => __DIR__ . '/..' . '/workos/workos-php/lib/Resource/WidgetTokenResponse.php',
-        'WorkOS\\SSO' => __DIR__ . '/..' . '/workos/workos-php/lib/SSO.php',
-        'WorkOS\\UserManagement' => __DIR__ . '/..' . '/workos/workos-php/lib/UserManagement.php',
-        'WorkOS\\Util\\Request' => __DIR__ . '/..' . '/workos/workos-php/lib/Util/Request.php',
-        'WorkOS\\Vault' => __DIR__ . '/..' . '/workos/workos-php/lib/Vault.php',
-        'WorkOS\\Version' => __DIR__ . '/..' . '/workos/workos-php/lib/Version.php',
-        'WorkOS\\Webhook' => __DIR__ . '/..' . '/workos/workos-php/lib/Webhook.php',
-        'WorkOS\\Widgets' => __DIR__ . '/..' . '/workos/workos-php/lib/Widgets.php',
-        'WorkOS\\WorkOS' => __DIR__ . '/..' . '/workos/workos-php/lib/WorkOS.php',
         'staabm\\SideEffectsDetector\\SideEffect' => __DIR__ . '/..' . '/staabm/side-effects-detector/lib/SideEffect.php',
         'staabm\\SideEffectsDetector\\SideEffectsDetector' => __DIR__ . '/..' . '/staabm/side-effects-detector/lib/SideEffectsDetector.php',
         'voku\\helper\\ASCII' => __DIR__ . '/..' . '/voku/portable-ascii/src/voku/helper/ASCII.php',
